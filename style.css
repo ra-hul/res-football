@@ -6,8 +6,10 @@ body{
 h2{
     font-size: 50px;
     color: white;
+    margin-top: 65px;
    
 }
+
 
 .copa-watch{
     margin-left: 140px;
@@ -20,7 +22,9 @@ h2{
 }
 .kicking-player img{
     width: 50%;
-    /* margin-left: 800px; */
+    margin-bottom: 65px;
+    margin-top: 65px;
+    
 
 }
 
@@ -32,3 +36,43 @@ h2{
     padding: 10px 40px;
    margin-bottom: 10px;
 }
+
+.player img{
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.player{
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.players{
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 940px;
+    height: 600px;
+    margin-left: 300px;
+   
+  
+} 
+
+/* .down-layer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.messi img{
+    width: 20%;
+} */
+
+
+
