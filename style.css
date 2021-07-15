@@ -9,6 +9,13 @@ h2{
     margin-top: 65px;
    
 }
+h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 65px;
+   
+
+}
 
 
 .copa-watch{
@@ -36,6 +43,9 @@ h2{
     padding: 10px 40px;
    margin-bottom: 10px;
 }
+p{
+    color: gray;
+}
 
 .player img{
     width: 250px;
@@ -58,21 +68,82 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     width: 940px;
-    height: 600px;
     margin-left: 300px;
    
   
 } 
 
-/* .down-layer{
+ .down{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 290px;
+}
+
+.down-layer{
+
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
 }
 
 
 .messi img{
+    width: 60%;
+    margin-bottom: 65px;
+    margin-top: 65px;
+    margin-right: 70px;
+}
+
+.footer img{
     width: 20%;
-} */
+    margin-top: 50px;
+    margin-left: 755px;
+}
+
+.icons{
+    margin-left: 840px;
+    padding: 10px;
+ 
+}
+.copy{
+    margin-left: 800px;
+}
+
+/* Media Queries */
+
+ /* mobile devices */
+
+ @media only screen and (max-width:688px) {
+     .back-ground{
+         width: 100%
+     }
+     .players, .down, .footer{
+         grid-template-columns: repeat(1,1fr);
+
+     }
+
+     .player, .down-layer{
+         flex-direction: column;
+     }
+     
+ }
+ /* tablet devices */
+
+ @media only screen and (min-width:688px) and (max-width:992px) {
+     .back-ground{
+         width: 100%
+     }
+
+     .player, .footer{
+         grid-template-columns: repeat(2, 1fr);
+
+     }
+
+     .down{
+         grid-template-columns: repeat(1,1fr);
+     }
+ }
 
 
 
